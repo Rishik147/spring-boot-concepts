@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: filters_and_interceptors
+
+server:
+  port: 8081
