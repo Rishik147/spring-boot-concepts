@@ -44,6 +44,6 @@ public class InterceptorRegistrationConfig implements WebMvcConfigurer {
 
         registry.addInterceptor(customInterceptor2)
                 .addPathPatterns("/api/departments/**");
-        log.info("Registered CustomInterceptor1 for paths /api/employee/*");
+        log.info("Registered CustomInterceptor1 for paths /api/departments/*");
     }
 }
